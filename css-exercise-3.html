@@ -2,34 +2,6 @@
 
 <head>
   <style>
-    .get-started-button {
-      color: white;
-      background-color: rgb(121, 82, 179);
-      font-weight: bold;
-      width: 120px;
-      height: 40px;
-      border-style: solid;
-      border-width: 1px;
-      border-radius: 4px;
-      cursor: pointer;
-      border-color: rgb(108, 117, 125);
-      margin-right: 12px;
-    }
-
-
-    .download-button {
-      color: rgb(108, 117, 125);
-      background-color: white;
-      font-weight: bold;
-      width: 120px;
-      height: 40px;
-      border-style: solid;
-      border-width: 1px;
-      border-radius: 4px;
-      cursor: pointer;
-      border-color: rgb(108, 117, 125);
-    }
-
     .add-cart-button {
       background-color: rgb(255, 230, 2);
       color: black;
@@ -39,6 +11,8 @@
       border-radius: 18px;
       font-size: 16px;
       cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.15s;
     }
 
     .buy-now-button {
@@ -50,33 +24,44 @@
       border-radius: 18px;
       font-size: 16px;
       cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.15s;
+    }
+
+    .buy-now-button:hover {
+      opacity: 1;
+    }
+
+    .buy-now-button:active {
+      opacity: 0.4;
+    }
+
+    .add-cart-button:hover {
+      opacity: 1;
+    }
+
+    .add-cart-button:active {
+      opacity: 0.4;
     }
 
     .back {
       color: rgb(0, 113, 133);
+      transition: color 0.15s;
+    }
+
+    .back:hover {
+      color: red;
     }
 
     .money {
       font-weight: bold;
       color: rgb(0, 118, 0);
     }
-
-    button:hover {
-      filter: brightness(90%)
-    }
   </style>
 </head>
 
 
 <body>
-  <button class="get-started-button">
-    Get started
-  </button>
-  <button class="download-button">
-    Download
-  </button>
-
-  <br><br>
   <a href="https://www.amazon.com/" class="back" target="_blank">
     Back to Amazon
   </a>
