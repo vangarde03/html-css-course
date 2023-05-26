@@ -11,11 +11,30 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15s;
   }
 
-  button:hover {
-    filter: brightness(85%);
+  .subsribe-button:hover
+
+  /*hover = Sudo Class*/
+    {
+    opacity: 0.8;
   }
+
+  .subsribe-button:active {
+    opacity: 0.5;
+  }
+
+  .join-button:hover {
+    background-color: rgb(41, 118, 21);
+    color: white;
+    border-color: rgb(41, 118, 21);
+  }
+
+  .join-button:active {
+    opacity: 0.7;
+  }
+
 
   .join-button {
     background-color: white;
@@ -28,6 +47,7 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: background-color 1s, color 1s, border-color 1s;
   }
 
   .tweet-button {
@@ -40,6 +60,13 @@
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    /*horizontal vertical blur*/
   }
 </style>
 
