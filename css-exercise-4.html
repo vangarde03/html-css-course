@@ -1,0 +1,259 @@
+<html>
+
+<head>
+  <style>
+    .stretch-button {
+      width: 76px;
+      height: 40px;
+      background-color: teal;
+      color: white;
+      transition: width 1s, height 1s;
+      border-color: teal;
+      border-style: solid;
+    }
+
+    .stretch-button:hover {
+      width: 152px;
+      height: 80px;
+    }
+
+    .stretch-button:active {
+      width: 152px;
+      height: 80px;
+      opacity: 0.8;
+    }
+
+    .shadow-button {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.181);
+      background-color: teal;
+      color: white;
+      border-color: teal;
+      border-style: solid;
+    }
+
+    .shadow-button:active {
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.181);
+    }
+
+    .one {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: teal;
+      color: white;
+      border-color: teal;
+      border-style: solid;
+      transition: padding 1s, margin-right 1s;
+      margin-right: 20px;
+    }
+
+    .one:hover {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: 10px;
+    }
+
+
+    .two {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: teal;
+      color: white;
+      border-color: teal;
+      border-style: solid;
+      transition: padding 1s, margin-left 1s, margin-right 1s;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .two:hover {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .three {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: teal;
+      color: white;
+      border-color: teal;
+      border-style: solid;
+      transition: padding 1s, margin-left 1s, margin-right 1s;
+      margin-left: 20px;
+    }
+
+    .three:hover {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <button class="stretch-button">
+    Stretch
+  </button>
+  <br><br>
+  <button class="shadow-button">
+    Shadow
+  </button>
+  <br><br>
+  <button class="one">
+    One
+  </button>
+  <button class="two">
+    Two
+  </button>
+  <button class="three">
+    Three
+  </button>
+</body>
+
+</html>
+
+
+<!--
+Lesson 4h
+<style>
+  .back-button {
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .search-result {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+  }
+
+  .next-button {
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+</style>
+
+<button class="back-button">Back</button>
+<a class="search-result" href="https://google.com">1</a>
+<a class="search-result" href="https://google.com">2</a>
+<a class="search-result" href="https://google.com">3</a>
+<a class="search-result" href="https://google.com">4</a>
+<a class="search-result" href="https://google.com">5</a>
+<button class="next-button">Next</button>
+-->
+
+<!--
+  Lesson 4i
+  <style>
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: padding-top 1s,
+      padding-bottom 1s,
+      padding-left 1s,
+      padding-right 1s;
+  }
+
+  .stretch-button:hover {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+</style>
+
+<button class="stretch-button">
+  Stretch
+</button>
+-->
+
+<!--
+  Lesson 4j
+  <style>
+  .shadow-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .shadow-button:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+</style>
+
+<button class="shadow-button">
+  Shadow
+</button>
+-->
+
+<!--
+  Lesson 4k
+  <style>
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+      margin 0.15s;
+  }
+
+  .stretch-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+</style>
+
+<button class="stretch-button">
+  One
+</button>
+<button class="stretch-button">
+  Two
+</button>
+<button class="stretch-button">
+  Three
+</button>
+-->
