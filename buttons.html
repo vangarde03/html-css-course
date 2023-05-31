@@ -1,83 +1,24 @@
-<style>
-  .subsribe-button {
-    /*button = CSS selector ***applies to button elements on the webpage*/
-    /*.button_name => targets the classname instead of an element name*/
-    background-color: rgb(214, 0, 0);
-    /* CSS property = CSS value */
-    color: white;
-    border: none;
-    height: 36px;
-    width: 105px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: opacity 0.15s;
-  }
+<!DOCTYPE html>
+<html>
 
-  .subsribe-button:hover
+<head>
+  <title>Buttons Practice</title>
+  <link rel="stylesheet" href="styles/buttons.css">
+</head>
 
-  /*hover = Sudo Class*/
-    {
-    opacity: 0.8;
-  }
+<body>
+  <button class="subsribe-button">
+    SUBSCRIBE
+  </button>
 
-  .subsribe-button:active {
-    opacity: 0.5;
-  }
+  <button class="join-button">
+    JOIN
+  </button>
 
-  .join-button:hover {
-    background-color: rgb(41, 118, 21);
-    color: white;
-    border-color: rgb(41, 118, 21);
-  }
-
-  .join-button:active {
-    opacity: 0.7;
-  }
+  <button class="tweet-button">
+    Tweet
+  </button>
+</body>
 
 
-  .join-button {
-    background-color: white;
-    border-color: rgba(0, 204, 231, 0.77);
-    border-style: solid;
-    border-width: 1px;
-    color: rgba(0, 204, 231, 0.77);
-    height: 36px;
-    width: 62px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: background-color 1s, color 1s, border-color 1s;
-  }
-
-  .tweet-button {
-    background-color: rgb(2, 158, 255);
-    color: white;
-    border: none;
-    height: 36px;
-    width: 74px;
-    border-radius: 18px;
-    font-weight: bold;
-    font-size: 16px;
-    cursor: pointer;
-    transition: box-shadow 0.15s;
-  }
-
-
-  .tweet-button:hover {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
-    /*horizontal vertical blur*/
-  }
-</style>
-
-<button class="subsribe-button">
-  SUBSCRIBE
-</button>
-
-<button class="join-button">
-  JOIN
-</button>
-
-<button class="tweet-button">
-  Tweet
-</button>
+</html>
