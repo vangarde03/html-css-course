@@ -2,7 +2,33 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  top: 56px;
-  width: 72x;
+  top: 55px;
+  width: 72px;
   background-color: white;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidebar-link {
+  height: 74px;
+  transition: background-color 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-link:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
 }
